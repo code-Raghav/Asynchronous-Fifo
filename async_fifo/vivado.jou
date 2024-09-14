@@ -23,3 +23,13 @@
 #-----------------------------------------------------------
 start_gui
 open_project D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo_behav.wcfg
+source async_fifo.tcl
+copy_constraints -constrset constrs_1 constrs_1_1
+run 100 ns
+run 100 ns
+run 100 ns
+restart
+save_wave_config {D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo_behav.wcfg}
