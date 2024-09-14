@@ -118,3 +118,629 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // TclEventType: FLOW_ADDED
 // Tcl Message: open_project D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.xpr 
 // HMemoryUtils.trashcanNow. Engine heap size: 851 MB. GUI used memory: 65 MB. Current time: 9/14/24, 7:00:51 PM IST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 119 MB (+121835kb) [00:00:23]
+// [Engine Memory]: 1,091 MB (+992279kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  2448 ms.
+// Tcl Message: open_project D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Desktop/Projects/async_fifo' since last save. 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2024.1/data/ip'. 
+// [GUI Memory]: 134 MB (+9863kb) [00:00:25]
+// Project name: async_fifo; location: D:/Desktop/Projects/Asynchronous-Fifo/async_fifo; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 1488.777 ; gain = 438.043 
+dismissDialog("Open Project"); // bj (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,153 MB. GUI used memory: 71 MB. Current time: 9/14/24, 7:01:06 PM IST
+// [Engine Memory]: 1,153 MB (+7666kb) [00:00:29]
+// PAPropertyPanels.initPanels (async_fifo.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, async_fifo (async_fifo.v)]", 1, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, async_fifo (async_fifo.v)]", 1, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 72 MB. Current time: 9/14/24, 7:01:46 PM IST
+// Elapsed time: 67 seconds
+selectCodeEditor("async_fifo.v", 132, 122); // ac (async_fifo.v)
+// [Engine Memory]: 1,219 MB (+9071kb) [00:01:57]
+// [GUI Memory]: 146 MB (+5254kb) [00:11:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 73 MB. Current time: 9/14/24, 7:31:47 PM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  345427 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 73 MB. Current time: 9/14/24, 8:01:51 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 52 MB. Current time: 9/14/24, 8:31:54 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 51 MB. Current time: 9/14/24, 9:01:57 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 51 MB. Current time: 9/14/24, 9:32:00 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 51 MB. Current time: 9/14/24, 10:02:03 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 51 MB. Current time: 9/14/24, 10:32:06 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 51 MB. Current time: 9/14/24, 11:02:09 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 51 MB. Current time: 9/14/24, 11:32:12 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 51 MB. Current time: 9/15/24, 12:02:15 AM IST
+// Elapsed time: 18813 seconds
+selectCodeEditor("async_fifo.v", 184, 438); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 182, 395); // ac (async_fifo.v)
+// Elapsed time: 121 seconds
+selectCodeEditor("async_fifo.v", 258, 196); // ac (async_fifo.v)
+typeControlKey((HResource) null, "async_fifo.v", 'c'); // ac (async_fifo.v)
+// Elapsed time: 368 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+selectCodeEditor("async_fifo.v", 242, 294); // ac (async_fifo.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 55 MB. Current time: 9/15/24, 12:32:17 AM IST
+// Elapsed time: 1025 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // R (PAResourceOtoP.PAViews_SOURCES, Sources)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, async_fifo (async_fifo.v)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, async_fifo (async_fifo.v)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File]", 6); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File, async_fifo_behav.wcfg]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File, async_fifo_behav.wcfg]", 7, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectButton(PAResourceOtoP.OpenFileAction_CANCEL, "Cancel", "Unable to Open File"); // a (PAResourceOtoP.OpenFileAction_CANCEL)
+dismissDialog("Unable to Open File"); // R.a (dialog0)
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // R (RDIResource.RDIViews_PROPERTIES, Properties)
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // A (PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ap (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'async_fifo' 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'D:/Xilinx/Vivado/2024.1/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'async_fifo' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj async_fifo_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.srcs/sources_1/new/async_fifo.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module async_fifo INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1637.934 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '7' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot async_fifo_behav xil_defaultlib.async_fifo xil_defaultlib.glbl -log elaborate.log" 
+// Tcl Message: Vivado Simulator v2024.1.1 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved. Running: D:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot async_fifo_behav xil_defaultlib.async_fifo xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Pass Through NonSizing Optimizer Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module xil_defaultlib.async_fifo Compiling module xil_defaultlib.glbl 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot async_fifo_behav 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1637.934 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "async_fifo_behav -key {Behavioral:sim_1:Functional:async_fifo} -tclbatch {async_fifo.tcl} -view {D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1732 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 23 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // u (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// WARNING: HEventQueue.dispatchEvent() is taking  1018 ms.
+// Tcl Message: open_wave_config D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo_behav.wcfg 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 66 MB. Current time: 9/15/24, 12:42:00 AM IST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source async_fifo.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: xsim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1637.934 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'async_fifo_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:26 . Memory (MB): peak = 1637.934 ; gain = 0.000 
+// Elapsed Time for: 'h': 25s
+// 'd' command handler elapsed time: 25 seconds
+dismissDialog("Run Simulation"); // e (Run Simulation Progress)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 20 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aa
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File, async_fifo_behav.wcfg]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File, async_fifo_behav.wcfg]", 7, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectButton(PAResourceOtoP.OpenFileAction_CANCEL, "Cancel", "Unable to Open File"); // a (PAResourceOtoP.OpenFileAction_CANCEL)
+dismissDialog("Unable to Open File"); // R.a (dialog1)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File, async_fifo_behav.wcfg]", 7, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File, async_fifo_behav.wcfg]", 7, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File, async_fifo_behav.wcfg]", 7, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // am (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // am (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // am (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_COPY_CONSTRAINT_SET, "Copy Constraints Set..."); // ap (PAResourceCommand.PACommandNames_COPY_CONSTRAINT_SET, copy_constraints_set_menu)
+// Run Command: PAResourceCommand.PACommandNames_COPY_CONSTRAINT_SET
+selectTable(PAResourceAtoD.CopyConstraintsSetDialog_CONSTRAINT_SETS_TABLE_PANEL, "constrs_1_1 ; false", 0, "false", 1); // t (PAResourceAtoD.CopyConstraintsSetDialog_CONSTRAINT_SETS_TABLE_PANEL)
+editTable(PAResourceAtoD.CopyConstraintsSetDialog_CONSTRAINT_SETS_TABLE_PANEL, "false", 0, "Make Active", 1); // t (PAResourceAtoD.CopyConstraintsSetDialog_CONSTRAINT_SETS_TABLE_PANEL)
+selectTable(PAResourceAtoD.CopyConstraintsSetDialog_CONSTRAINT_SETS_TABLE_PANEL, "constrs_1_1 ; false", 0, "false", 1); // t (PAResourceAtoD.CopyConstraintsSetDialog_CONSTRAINT_SETS_TABLE_PANEL)
+editTable(PAResourceAtoD.CopyConstraintsSetDialog_CONSTRAINT_SETS_TABLE_PANEL, "false", 0, "Make Active", 1); // t (PAResourceAtoD.CopyConstraintsSetDialog_CONSTRAINT_SETS_TABLE_PANEL)
+selectButton(RDIResource.BaseDialog_OK, "OK", "Copy Constraints Set"); // a (RDIResource.BaseDialog_OK)
+// Tcl Command: 'copy_constraints -constrset constrs_1 constrs_1_1'
+// TclEventType: FILE_SET_NEW
+// Tcl Message: copy_constraints -constrset constrs_1 constrs_1_1 
+// Tcl Message: constrs_1_1 
+// 'M' command handler elapsed time: 4 seconds
+dismissDialog("Copy Constraint Set"); // bj (Copy Constraint Set Progress)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 73 MB. Current time: 9/15/24, 12:42:52 AM IST
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B (PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, simulation_live_run_for_time)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 100 ns 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B (PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, simulation_live_run_for_time)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 71 MB. Current time: 9/15/24, 12:42:58 AM IST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 100 ns 
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B (PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, simulation_live_run_for_time)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 100 ns 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART, "simulation_live_restart"); // B (PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART, simulation_live_restart)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// Tcl Message: restart 
+// Tcl Message: INFO: [Wavedata 42-604] Simulation restarted 
+dismissDialog("Restart"); // bj (Restart Progress)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 72 MB. Current time: 9/15/24, 12:43:03 AM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, mem[0:15][7:0]]", 26); // k (RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE)
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DSIZE[31:0]]", 25, true); // k (RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE) - Node
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DEPTH[31:0]]", 27, true, true, false, false, false, false); // k (RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE) - Shift Key - Node
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, DEPTH[31:0]]", 27, true, false, false, false, true, false); // k (RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE) - Popup Trigger - Node
+selectMenu("Signal Color"); // am (Signal Color)
+selectMenu("Radix"); // am (Radix)
+selectMenu("Radix"); // am (Radix)
+selectMenu("Signal Color"); // am (Signal Color)
+selectMenu("Waveform Style"); // am (Waveform Style)
+selectMenu("Name"); // am (Name)
+selectMenuItem((HResource) null, "Delete"); // ap (Delete)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 69 MB. Current time: 9/15/24, 1:13:05 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 67 MB. Current time: 9/15/24, 1:33:11 AM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 2997 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "async_fifo.v", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 21 seconds
+selectCodeEditor("async_fifo.v", 102, 608); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 109, 607); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 108, 601); // ac (async_fifo.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "async_fifo_behav.wcfg*", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 120 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "async_fifo.v", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("async_fifo.v", 129, 608); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 129, 608, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectCodeEditor("async_fifo.v", 134, 600); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 134, 600, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ah (PAResourceItoN.MainMenuMgr_EDIT, Edit)
+selectMenuItem(PAResourceCommand.PACommandNames_REPLACE_IN_FILES, "Replace in Files..."); // ap (PAResourceCommand.PACommandNames_REPLACE_IN_FILES, replace_in_files_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ah (PAResourceItoN.MainMenuMgr_EDIT, Edit)
+// Run Command: PAResourceCommand.PACommandNames_REPLACE_IN_FILES
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "full", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectCheckBox((HResource) null, "Match case", true); // JCheckBox: TRUE
+selectCheckBox((HResource) null, "Match whole word", true); // JCheckBox: TRUE
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find", "Replace in Files"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 68 MB. Current time: 9/15/24, 1:36:08 AM IST
+// 'e' command handler elapsed time: 9 seconds
+dismissDialog("Find in Files"); // bj (Find in Files Progress)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 69 MB. Current time: 9/15/24, 1:36:08 AM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES, "Replace All"); // a (PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES)
+// Run Command: PAResourceCommand.PACommandNames_REPLACE_IN_FILES
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "rempty"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "rempty", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "full", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find", "Replace in Files"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes", "Text Changed"); // a (RDIResource.ConfirmSaveTextEditsDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 69 MB. Current time: 9/15/24, 1:36:29 AM IST
+// 'e' command handler elapsed time: 7 seconds
+dismissDialog("Text Changed"); // h (dialog5)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Find in Files"); // bj (Find in Files Progress)
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 69 MB. Current time: 9/15/24, 1:36:30 AM IST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:35m:29s
+selectButton(PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES, "Replace All"); // a (PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:35m:33s
+// Run Command: RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: save_wave_config {D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo_behav.wcfg} 
+// TclEventType: FILE_SET_CHANGE
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "rempty"); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+// Elapsed time: 54 seconds
+selectCodeEditor("async_fifo.v", 95, 233); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 85, 193); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 83, 183); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 97, 180); // ac (async_fifo.v)
+// Run Command: PAResourceCommand.PACommandNames_REPLACE_IN_FILES
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // d.c (RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "rreq", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "rreq", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "empty", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find", "Replace in Files"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes", "Text Changed"); // a (RDIResource.ConfirmSaveTextEditsDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 69 MB. Current time: 9/15/24, 1:37:59 AM IST
+// 'e' command handler elapsed time: 13 seconds
+dismissDialog("Text Changed"); // h (dialog7)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 69 MB. Current time: 9/15/24, 1:37:59 AM IST
+dismissDialog("Find in Files"); // bj (Find in Files Progress)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:36m:59s
+selectButton(PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES, "Replace All"); // a (PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:37m:03s
+selectCodeEditor("async_fifo.v", 84, 125); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 84, 125, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+// Elapsed time: 29 seconds
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "wreq", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "ren", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find", "Replace in Files"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes", "Text Changed"); // a (RDIResource.ConfirmSaveTextEditsDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 71 MB. Current time: 9/15/24, 1:38:36 AM IST
+// 'e' command handler elapsed time: 27 seconds
+dismissDialog("Text Changed"); // h (dialog9)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 70 MB. Current time: 9/15/24, 1:38:36 AM IST
+dismissDialog("Find in Files"); // bj (Find in Files Progress)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:37m:35s
+selectButton(PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES, "Replace All"); // a (PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:37m:39s
+selectCodeEditor("async_fifo.v", 80, 180); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 80, 180, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "ren", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "w_enable", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find", "Replace in Files"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes", "Text Changed"); // a (RDIResource.ConfirmSaveTextEditsDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 70 MB. Current time: 9/15/24, 1:38:51 AM IST
+// 'e' command handler elapsed time: 8 seconds
+dismissDialog("Text Changed"); // h (dialog11)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 70 MB. Current time: 9/15/24, 1:38:51 AM IST
+dismissDialog("Find in Files"); // bj (Find in Files Progress)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES, "Replace All"); // a (PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES)
+// Elapsed Time for: 'L.f': 06h:37m:51s
+selectCodeEditor("async_fifo.v", 100, 199); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 83, 147); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 77, 144); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 77, 144, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectCodeEditor("async_fifo.v", 81, 147); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 81, 147); // ac (async_fifo.v)
+// Elapsed Time for: 'L.f': 06h:37m:55s
+selectCodeEditor("async_fifo.v", 81, 147); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 81, 147); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 81, 147); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 91, 154); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 95, 143); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 94, 143, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "wclk", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "wclk", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "r_enable", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find", "Replace in Files"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes", "Text Changed"); // a (RDIResource.ConfirmSaveTextEditsDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 71 MB. Current time: 9/15/24, 1:39:09 AM IST
+// 'e' command handler elapsed time: 9 seconds
+dismissDialog("Text Changed"); // h (dialog13)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 71 MB. Current time: 9/15/24, 1:39:09 AM IST
+dismissDialog("Find in Files"); // bj (Find in Files Progress)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:38m:09s
+selectButton(PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES, "Replace All"); // a (PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectCodeEditor("async_fifo.v", 91, 201); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 89, 199); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 85, 197, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectCodeEditor("async_fifo.v", 84, 197); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 84, 197, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectCodeEditor("async_fifo.v", 84, 197); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 84, 197); // ac (async_fifo.v)
+// Elapsed Time for: 'L.f': 06h:38m:13s
+selectCodeEditor("async_fifo.v", 84, 197); // ac (async_fifo.v)
+// Elapsed time: 69 seconds
+selectCodeEditor("async_fifo.v", 85, 195); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 85, 195, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "rclk", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "w_clk", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find", "Replace in Files"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes", "Text Changed"); // a (RDIResource.ConfirmSaveTextEditsDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 73 MB. Current time: 9/15/24, 1:40:33 AM IST
+// 'e' command handler elapsed time: 7 seconds
+dismissDialog("Text Changed"); // h (dialog15)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 72 MB. Current time: 9/15/24, 1:40:33 AM IST
+dismissDialog("Find in Files"); // bj (Find in Files Progress)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES, "Replace All"); // a (PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES)
+// Elapsed Time for: 'L.f': 06h:39m:33s
+selectCodeEditor("async_fifo.v", 88, 206); // ac (async_fifo.v)
+// Elapsed Time for: 'L.f': 06h:39m:37s
+selectCodeEditor("async_fifo.v", 99, 166); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 99, 166, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "wrst_n", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "w_rst", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find", "Replace in Files"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes", "Text Changed"); // a (RDIResource.ConfirmSaveTextEditsDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 72 MB. Current time: 9/15/24, 1:40:57 AM IST
+// 'e' command handler elapsed time: 10 seconds
+dismissDialog("Text Changed"); // h (dialog17)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 72 MB. Current time: 9/15/24, 1:40:57 AM IST
+dismissDialog("Find in Files"); // bj (Find in Files Progress)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:39m:57s
+selectButton(PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES, "Replace All"); // a (PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectCodeEditor("async_fifo.v", 88, 216); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 88, 216, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectCodeEditor("async_fifo.v", 93, 213); // ac (async_fifo.v)
+// Elapsed Time for: 'L.f': 06h:40m:01s
+selectCodeEditor("async_fifo.v", 93, 213, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+typeControlKey(null, null, 'z');
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "rrst_n", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "w_rst", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_CLOSE, "Close", "Find in Files"); // h (PAResourceEtoH.FindAndReplaceAllDialog_CLOSE)
+// 'f' command handler elapsed time: 5 seconds
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "rrst_n", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "w_rst", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find", "Replace in Files"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes", "Text Changed"); // a (RDIResource.ConfirmSaveTextEditsDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 73 MB. Current time: 9/15/24, 1:41:17 AM IST
+// 'e' command handler elapsed time: 6 seconds
+dismissDialog("Text Changed"); // h (dialog20)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 73 MB. Current time: 9/15/24, 1:41:17 AM IST
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Find in Files"); // bj (Find in Files Progress)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:40m:17s
+selectButton(PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES, "Replace All"); // a (PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:40m:21s
+selectCodeEditor("async_fifo.v", 165, 230); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 165, 230, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "wdata", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "wdata", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "r_rst", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find", "Replace in Files"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes", "Text Changed"); // a (RDIResource.ConfirmSaveTextEditsDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 73 MB. Current time: 9/15/24, 1:41:32 AM IST
+// 'e' command handler elapsed time: 7 seconds
+dismissDialog("Text Changed"); // h (dialog22)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 73 MB. Current time: 9/15/24, 1:41:32 AM IST
+dismissDialog("Find in Files"); // bj (Find in Files Progress)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:40m:31s
+selectButton(PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES, "Replace All"); // a (PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed Time for: 'L.f': 06h:40m:35s
+selectCodeEditor("async_fifo.v", 178, 276); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 177, 276, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectComboBox("pa.FindAndReplaceAllDialog_FIND_COMBO_BOX", "rdata", -1); // JComboBox (pa.FindAndReplaceAllDialog_FIND_COMBO_BOX)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "w_data", -1); // JComboBox (pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find", "Replace in Files"); // f (PAResourceEtoH.FindAndReplaceAllDialog_FIND)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_YES, "Yes", "Text Changed"); // a (RDIResource.ConfirmSaveTextEditsDialog_YES)
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 74 MB. Current time: 9/15/24, 1:41:44 AM IST
+// 'e' command handler elapsed time: 6 seconds
+dismissDialog("Text Changed"); // h (dialog24)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,219 MB. GUI used memory: 74 MB. Current time: 9/15/24, 1:41:45 AM IST
+dismissDialog("Find in Files"); // bj (Find in Files Progress)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES, "Replace All"); // a (PAResourceEtoH.FindInFilesView_REPLACE_ALL_OCCURRENCES_IN_ALL_FILES)
+// Elapsed Time for: 'L.f': 06h:40m:45s
+selectCodeEditor("async_fifo.v", 144, 298); // ac (async_fifo.v)
+// Elapsed Time for: 'L.f': 06h:40m:49s
+// Elapsed time: 21 seconds
+selectCodeEditor("async_fifo.v", 249, 380); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 257, 380); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 257, 380, false, false, false, false, true); // ac (async_fifo.v) - Double Click
+selectCodeEditor("async_fifo.v", 332, 392); // ac (async_fifo.v)
+selectCodeEditor("async_fifo.v", 128, 459); // ac (async_fifo.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 06h:41m:19s
+// Elapsed Time for: 'L.f': 06h:41m:23s

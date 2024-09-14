@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="3,550.416 ns"></ZoomStartTime>
-      <ZoomEndTime time="3,849.917 ns"></ZoomEndTime>
-      <Cursor1Time time="3,800.000 ns"></Cursor1Time>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,185.260 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="139"></NameColumnWidth>
       <ValueColumnWidth column_width="128"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="30" />
+   <WVObjectSize size="27" />
    <wvobject fp_name="/async_fifo/wreq" type="logic">
       <obj_property name="ElementShortName">wreq</obj_property>
       <obj_property name="ObjectShortName">wreq</obj_property>
@@ -127,18 +127,5 @@
    <wvobject fp_name="/async_fifo/mem" type="array">
       <obj_property name="ElementShortName">mem[0:15][7:0]</obj_property>
       <obj_property name="ObjectShortName">mem[0:15][7:0]</obj_property>
-      <obj_property name="isExpanded"></obj_property>
-   </wvobject>
-   <wvobject fp_name="/async_fifo/DSIZE" type="array">
-      <obj_property name="ElementShortName">DSIZE[31:0]</obj_property>
-      <obj_property name="ObjectShortName">DSIZE[31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/async_fifo/ASIZE" type="array">
-      <obj_property name="ElementShortName">ASIZE[31:0]</obj_property>
-      <obj_property name="ObjectShortName">ASIZE[31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/async_fifo/DEPTH" type="array">
-      <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
-      <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
    </wvobject>
 </wave_config>
