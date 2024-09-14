@@ -27,8 +27,8 @@ This repository contains an implementation of an asynchronous FIFO (First-In-Fir
 
 - **Outputs:**
   - `rdata`: Data read from the FIFO.
-  - `wfull`: FIFO full flag.
-  - `rempty`: FIFO empty flag.
+  - `full`: FIFO full flag.
+  - `empty`: FIFO empty flag.
 
 ### 2. **Internal Signals**
 
@@ -56,8 +56,8 @@ This repository contains an implementation of an asynchronous FIFO (First-In-Fir
    - **Binary to Gray Code Conversion**: Write and read binary pointers are converted to Gray code to minimize errors when crossing clock domains.
 
 3. **Flag Management:**
-   - **Full Flag (`wfull`)**: Generated when the FIFO is at maximum capacity, based on the write pointer and read pointer values.
-   - **Empty Flag (`rempty`)**: Generated when the FIFO is empty, based on the read pointer and the synchronized write pointer values.
+   - **Full Flag (`full`)**: Generated when the FIFO is at maximum capacity, based on the write pointer and read pointer values.
+   - **Empty Flag (`empty`)**: Generated when the FIFO is empty, based on the read pointer and the synchronized write pointer values.
 
 4. **Memory Operations:**
    - Data is written into the FIFO memory on the rising edge of the write clock if the FIFO is not full.
@@ -80,7 +80,7 @@ async_fifo #(
     .rrst_n(read_reset_n),
     .wdata(write_data),
     .rdata(read_data),
-    .wfull(fifo_full),
-    .rempty(fifo_empty)
+    .full(fifo_full),
+    .empty(fifo_empty)
 );
 ```
