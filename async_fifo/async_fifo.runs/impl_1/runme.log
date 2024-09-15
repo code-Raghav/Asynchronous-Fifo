@@ -1,0 +1,16 @@
+
+*** Running vivado
+    with args -log async_fifo.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source async_fifo.tcl -notrace
+
+
+
+****** Vivado v2024.1.1 (64-bit)
+  **** SW Build 5094488 on Fri Jun 14 08:59:21 MDT 2024
+  **** IP Build 5091682 on Fri Jun 14 16:55:04 MDT 2024
+  **** SharedData Build 5094118 on Fri Jun 14 01:09:43 MDT 2024
+  **** Start of session at: Sun Sep 15 14:54:12 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source async_fifo.tcl -notrace
+Command: open_checkpoint D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.runs/impl_1/async_fifo.dcp
