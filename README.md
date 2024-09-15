@@ -2,7 +2,9 @@
 
 ## Overview
 
-This repository contains an implementation of an asynchronous FIFO (First-In-First-Out) buffer in Verilog. The FIFO buffer is a crucial component in digital systems where data needs to be transferred between two clock domains asynchronously. This module supports different data and address widths and handles synchronization between read and write operations across different clocks.
+This module contains an implementation of an asynchronous FIFO (First-In-First-Out) buffer in Verilog. The FIFO buffer is essential in digital systems where data needs to be transferred asynchronously between two different clock domains. This module supports configurable data and address widths and handles synchronization between read and write operations across distinct clock domains.
+
+![WhatsApp Image 2024-09-15 at 14 04 06_ffd07019](https://github.com/user-attachments/assets/2957cabe-70fe-4003-8f23-a908665b8cb2)
 
 ## Features
 
@@ -17,16 +19,16 @@ This repository contains an implementation of an asynchronous FIFO (First-In-Fir
 ### 1. **Inputs and Outputs**
 
 - **Inputs:**
-  - `wreq`: Write request signal.
-  - `wclk`: Write clock signal.
-  - `wrst_n`: Write reset signal (active low).
-  - `rreq`: Read request signal.
-  - `rclk`: Read clock signal.
-  - `rrst_n`: Read reset signal (active low).
-  - `wdata`: Data to be written into the FIFO.
+  - `w_enable`: Write enable signal.
+  - `w_clk`: Write clock signal.
+  - `w_rst`: Write reset signal (active low).
+  - `r_enable`: Read enable signal.
+  - `r_clk`: Read clock signal.
+  - `r_rst`: Read reset signal (active low).
+  - `w_data`: Data to be written into the FIFO.
 
 - **Outputs:**
-  - `rdata`: Data read from the FIFO.
+  - `r_data`: Data read from the FIFO.
   - `full`: FIFO full flag.
   - `empty`: FIFO empty flag.
 
@@ -34,11 +36,11 @@ This repository contains an implementation of an asynchronous FIFO (First-In-Fir
 
 - **Pointers:**
   - `wptr`, `rptr`: Gray code pointers for write and read operations.
-  - `wbin`, `rbin`: Binary pointers for write and read operations.
+  - `w_bin`, `r_bin`: Binary pointers for write and read operations.
 
 - **Synchronization Signals:**
-  - `wq2_rptr`, `wq1_rptr`: Write domain synchronized read pointers.
-  - `rq2_wptr`, `rq1_wptr`: Read domain synchronized write pointers.
+  - `rptr_sync2`, `rptr_sync2`: Write domain synchronized read pointers.
+  - `wptr_sync2`, `wptr_sync1`: Read domain synchronized write pointers.
 
 - **Flags:**
   - `wfull_val`, `rempty_val`: Internal signals to compute FIFO full and empty statuses.
@@ -72,14 +74,14 @@ async_fifo #(
     .DSIZE(8),
     .ASIZE(4)
 ) my_fifo (
-    .wreq(write_request),
-    .wclk(write_clock),
-    .wrst_n(write_reset_n),
-    .rreq(read_request),
-    .rclk(read_clock),
-    .rrst_n(read_reset_n),
-    .wdata(write_data),
-    .rdata(read_data),
+    .w_enable(write_enable),
+    .w_clk(write_clock),
+    .w_rst(write_reset),
+    .r_enable(read_enable),
+    .r_clk(read_clock),
+    .r_rst(read_reset),
+    .w_data(write_data),
+    .r_data(read_data),
     .full(fifo_full),
     .empty(fifo_empty)
 );
