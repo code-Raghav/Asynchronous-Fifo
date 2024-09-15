@@ -21,8 +21,8 @@ module async_fifo #(
 
 // Internal pointer and synchronization signals
 //    size of pointers = ASIZE + 1, MSB indicates overflow
-reg [ASIZE:0] wq2_rptr, wq1_rptr, rptr;   // Write domain synchronized read pointer and read pointer
-reg [ASIZE:0] rq2_wptr, rq1_wptr, wptr;   // Read domain synchronized write pointer and write pointer
+reg [ASIZE:0] rptr_sync2, rptr_sync1, rptr;   // Write domain synchronized read pointer and read pointer
+reg [ASIZE:0] wptr_sync2, wptr_sync1, wptr;   // Read domain synchronized write pointer and write pointer
 reg [ASIZE:0] r_bin, w_bin;                 // Binary read and write pointers
 
 // Next state signals
@@ -42,11 +42,11 @@ reg [DSIZE-1:0] mem [0:DEPTH-1];          // FIFO memory
 // Synchronize read pointer into write clock domain
 always @(posedge w_clk or negedge w_rst) begin
     if (!w_rst) begin
-        wq2_rptr <= 0;
-        wq1_rptr <= 0;
+        rptr_sync2 <= 0;
+        rptr_sync1 <= 0;
     end else begin
-        wq2_rptr <= wq1_rptr;
-        wq1_rptr <= rptr;  // Sync read pointer into write clock domain
+        rptr_sync2 <= rptr_sync1;
+        rptr_sync1 <= rptr;  // Sync read pointer into write clock domain
     end
 end
 
@@ -55,11 +55,11 @@ end
 // Synchronize write pointer into read clock domain
 always @(posedge r_clk or negedge r_rst) begin
     if (!r_rst) begin
-        rq2_wptr <= 0;
-        rq1_wptr <= 0;
+        wptr_sync2 <= 0;
+        wptr_sync1 <= 0;
     end else begin
-        rq2_wptr <= rq1_wptr;
-        rq1_wptr <= wptr;  // Sync write pointer into read clock domain
+        wptr_sync2 <= wptr_sync1;
+        wptr_sync1 <= wptr;  // Sync write pointer into read clock domain
     end
 end
 
@@ -67,7 +67,7 @@ end
 
 
 // FIFO Empty Flag: Check if read pointer equals synchronized write pointer
-assign rempty_val = (rptr_nxt == rq2_wptr);  // FIFO is empty when pointers match
+assign rempty_val = (rptr_nxt == wptr_sync2);  // FIFO is empty when pointers match
 always @(posedge r_clk or negedge r_rst) begin
     if (!r_rst)
         empty <= 1'b0;  // Reset empty flag
@@ -78,7 +78,7 @@ end
 
 
 // FIFO Full Flag: Check if write pointer is just one slot behind synchronized read pointer
-assign wfull_val = (wq2_rptr == {~wptr[ASIZE:ASIZE-1], wptr[ASIZE-2:0]});  // Full when write pointer wraps
+assign wfull_val = (rptr_sync2 == {~wptr[ASIZE:ASIZE-1], wptr[ASIZE-2:0]});  // Full when write pointer wraps
 always @(posedge w_clk or negedge w_rst) begin
     if (!w_rst)
         full <= 1'b0;  // Reset full flag

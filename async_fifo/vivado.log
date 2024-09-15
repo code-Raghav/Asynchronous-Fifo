@@ -164,3 +164,5 @@ run 100 ns
 restart
 INFO: [Wavedata 42-604] Simulation restarted
 save_wave_config {D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
