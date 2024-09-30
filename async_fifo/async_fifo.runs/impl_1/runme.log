@@ -408,3 +408,208 @@ INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 
 
 Phase 1 Build RT Design
 Checksum: PlaceDB: aa14b445 ConstDB: 0 ShapeSum: 1cddd72d RouteDB: 15f972f0
+Post Restoration Checksum: NetGraph: ac7c7ccd | NumContArr: fce71b89 | Constraints: c2a8fa9d | Timing: c2a8fa9d
+Phase 1 Build RT Design | Checksum: 32eb58d90
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 2123.262 ; gain = 80.496
+
+Phase 2 Router Initialization
+INFO: [Route 35-64] No timing constraints were detected. The router will operate in resource-optimization mode.
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 32eb58d90
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 2154.809 ; gain = 112.043
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 32eb58d90
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:36 . Memory (MB): peak = 2154.809 ; gain = 112.043
+ Number of Nodes with overlaps = 0
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 71
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 71
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 2b34007a8
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 2236.188 ; gain = 193.422
+
+Phase 3 Global Routing
+Phase 3 Global Routing | Checksum: 2b34007a8
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 2236.188 ; gain = 193.422
+
+Phase 4 Initial Routing
+
+Phase 4.1 Initial Net Routing Pass
+Phase 4.1 Initial Net Routing Pass | Checksum: 2a84a78cc
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+Phase 4 Initial Routing | Checksum: 2a84a78cc
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+
+Phase 5 Rip-up And Reroute
+
+Phase 5.1 Global Iteration 0
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+Phase 5.1 Global Iteration 0 | Checksum: 1f9fa2247
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+Phase 5 Rip-up And Reroute | Checksum: 1f9fa2247
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+
+Phase 6 Delay and Skew Optimization
+Phase 6 Delay and Skew Optimization | Checksum: 1f9fa2247
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Hold Fix Iter
+Phase 7.1 Hold Fix Iter | Checksum: 1f9fa2247
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+Phase 7 Post Hold Fix | Checksum: 1f9fa2247
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0112354 %
+  Global Horizontal Routing Utilization  = 0.0113252 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+
+--GLOBAL Congestion:
+Utilization threshold used for congestion level computation: 0.85
+Congestion Report
+North Dir 1x1 Area, Max Cong = 29.7297%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 9.00901%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 7.35294%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 17.6471%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 8 Route finalize | Checksum: 1f9fa2247
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 1f9fa2247
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 279cab7a0
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+
+Phase 11 Post Process Routing
+Phase 11 Post Process Routing | Checksum: 279cab7a0
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+Total Elapsed time in route_design: 38.045 secs
+
+Phase 12 Post-Route Event Processing
+Phase 12 Post-Route Event Processing | Checksum: 10abad2ab
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+INFO: [Route 35-16] Router Completed Successfully
+Ending Routing Task | Checksum: 10abad2ab
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 2236.188 ; gain = 193.422
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+61 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:40 . Memory (MB): peak = 2236.188 ; gain = 204.875
+INFO: [Vivado 12-24828] Executing command : report_drc -file async_fifo_drc_routed.rpt -pb async_fifo_drc_routed.pb -rpx async_fifo_drc_routed.rpx
+Command: report_drc -file async_fifo_drc_routed.rpt -pb async_fifo_drc_routed.pb -rpx async_fifo_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.runs/impl_1/async_fifo_drc_routed.rpt.
+report_drc completed successfully
+INFO: [Vivado 12-24828] Executing command : report_methodology -file async_fifo_methodology_drc_routed.rpt -pb async_fifo_methodology_drc_routed.pb -rpx async_fifo_methodology_drc_routed.rpx
+Command: report_methodology -file async_fifo_methodology_drc_routed.rpt -pb async_fifo_methodology_drc_routed.pb -rpx async_fifo_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.runs/impl_1/async_fifo_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [Vivado 12-24828] Executing command : report_timing_summary -max_paths 10 -report_unconstrained -file async_fifo_timing_summary_routed.rpt -pb async_fifo_timing_summary_routed.pb -rpx async_fifo_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+INFO: [Vivado 12-24838] Running report commands "report_incremental_reuse, report_route_status" in parallel.
+Running report generation with 2 threads.
+INFO: [Vivado 12-24828] Executing command : report_route_status -file async_fifo_route_status.rpt -pb async_fifo_route_status.pb
+INFO: [Vivado 12-24828] Executing command : report_incremental_reuse -file async_fifo_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [Vivado 12-24828] Executing command : report_power -file async_fifo_power_routed.rpt -pb async_fifo_power_summary_routed.pb -rpx async_fifo_power_routed.rpx
+Command: report_power -file async_fifo_power_routed.rpt -pb async_fifo_power_summary_routed.pb -rpx async_fifo_power_routed.rpx
+WARNING: [Power 33-232] No user defined clocks were found in the design! Power estimation will be inaccurate until this is corrected.
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+78 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [Vivado 12-24828] Executing command : report_clock_utilization -file async_fifo_clock_utilization_routed.rpt
+WARNING: [Device 21-9320] Failed to find the Oracle tile group with name 'HSR_BOUNDARY_TOP'. This is required for Clock regions and Virtual grid.
+WARNING: [Device 21-2174] Failed to initialize Virtual grid.
+INFO: [Vivado 12-24828] Executing command : report_bus_skew -warn_on_violation -file async_fifo_bus_skew_routed.rpt -pb async_fifo_bus_skew_routed.pb -rpx async_fifo_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2236.188 ; gain = 0.000
+Wrote PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2236.188 ; gain = 0.000
+Wrote PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2236.188 ; gain = 0.000
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Wrote RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 2236.188 ; gain = 0.000
+Wrote Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2236.188 ; gain = 0.000
+Wrote Device Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2236.188 ; gain = 0.000
+Write Physdb Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 2236.188 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Desktop/Projects/Asynchronous-Fifo/async_fifo/async_fifo.runs/impl_1/async_fifo_routed.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Sun Sep 15 14:55:56 2024...
